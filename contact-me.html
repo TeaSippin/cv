@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>My Fictional Address</p>
+    <p>0773888499930</p>
+    <p>myemail@gmail.com</p>
+    <hr>
+    <form action="mailto:info@gmail.com" method="POST" enctype="text/plain">
+        <label for="name">Your Name:</label>
+        <!-- When the input field gets focus, replace its current value with an empty string
+        <input type="text" onfocus="this.value=''" placeholder="Name"><br> -->
+        <input type="text" name="yourName" placeholder="Name"><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" id="" cols="26" rows="10"></textarea><br>
+        <label>Do you want to sign up to be on our emailing list?</label>
+        <input type="checkbox" name="" value="">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
